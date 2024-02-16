@@ -1,0 +1,2341 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Fashion.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Fashion.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\admin\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicon.css",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicon.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.eot",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.eot"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.svg",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.svg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.ttf",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.ttf"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.woff",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.woff"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.woff2",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\RemixIcons\\fonts\\remixicondf6d.woff2"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-icons399c.eot",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-icons399c.eot"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-icons399c.ttf",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-icons399c.ttf"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-icons399c.woff2",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-icons399c.woff2"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-iconsd41d.eot",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-iconsd41d.eot"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-iconsd41d.woff",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\tabler-icons\\webfont\\fonts\\tabler-iconsd41d.woff"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\iconfonts\\tabler-icons\\webfont\\tabler-icons.css",
+      "PackagePath": "staticwebassets\\css\\admin\\iconfonts\\tabler-icons\\webfont\\tabler-icons.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\authentication\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\authentication\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\authentication\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\authentication\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\authentication\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\authentication\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\authentication\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\authentication\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\authentication\\social\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\authentication\\social\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\brand-logos\\desktop-dark.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\brand-logos\\desktop-dark.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\brand-logos\\desktop-light.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\brand-logos\\desktop-light.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\brand-logos\\desktop-logo.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\brand-logos\\desktop-logo.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\brand-logos\\toggle-dark.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\brand-logos\\toggle-dark.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\brand-logos\\toggle-logo.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\brand-logos\\toggle-logo.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\jpg\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\jpg\\1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\jpg\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\jpg\\2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\jpg\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\jpg\\3.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\jpg\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\jpg\\4.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\jpg\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\jpg\\5.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\jpg\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\jpg\\6.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\product-details\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\product-details\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\product-details\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\product-details\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\product-details\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\product-details\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\product-details\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\product-details\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\product-details\\5.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\product-details\\5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\product-details\\6.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\product-details\\6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\product-details\\7.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\product-details\\7.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\product-details\\8.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\product-details\\8.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\10.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\10.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\11.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\11.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\12.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\12.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\13.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\13.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\14.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\14.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\15.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\15.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\16.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\16.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\17.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\17.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\18.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\18.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\19.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\19.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\5.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\6.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\7.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\7.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\8.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\8.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\ecommerce\\products\\9.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\ecommerce\\products\\9.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\10.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\10.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\5.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\6.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\7.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\7.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\8.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\8.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\files\\9.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\files\\9.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\flags\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\flags\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\flags\\10.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\flags\\10.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\flags\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\flags\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\flags\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\flags\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\flags\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\flags\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\flags\\5.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\flags\\5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\flags\\6.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\flags\\6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\flags\\7.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\flags\\7.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\10.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\10.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\3.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\4.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\5.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\6.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\7.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\7.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\8.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\8.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\gallery\\9.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\gallery\\9.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\landing\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\landing\\1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\landing\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\landing\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\landing\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\landing\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\landing\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\landing\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\landing\\banner.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\landing\\banner.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\10.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\10.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\5.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\6.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\7.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\7.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\8.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\8.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\logos\\9.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\logos\\9.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\10.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\10.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\11.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\11.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\12.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\12.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\13.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\13.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\14.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\14.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\15.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\15.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\16.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\16.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\17.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\17.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\18.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\18.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\19.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\19.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\20.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\20.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\21.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\21.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\22.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\22.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\23.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\23.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\24.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\24.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\25.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\25.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\26.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\26.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\27.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\27.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\28.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\28.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\29.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\29.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\3.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\4.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\5.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\6.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\7.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\7.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\8.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\8.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\media\\9.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\media\\9.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\menu-bg-images\\bg-img1.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\menu-bg-images\\bg-img1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\menu-bg-images\\bg-img2.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\menu-bg-images\\bg-img2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\menu-bg-images\\bg-img3.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\menu-bg-images\\bg-img3.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\menu-bg-images\\bg-img4.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\menu-bg-images\\bg-img4.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\menu-bg-images\\bg-img5.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\menu-bg-images\\bg-img5.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\menu-bg-images\\transparent.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\menu-bg-images\\transparent.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\10.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\10.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\11.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\11.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\12.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\12.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\14.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\14.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\15.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\15.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\5.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\6.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\7.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\7.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\8.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\8.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\nft-images\\9.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\nft-images\\9.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\1.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\10.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\10.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\11.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\11.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\12.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\12.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\5.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\6.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\7.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\7.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\8.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\8.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\payment-cards\\9.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\payment-cards\\9.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\12.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\12.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\13.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\13.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\14.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\14.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\15.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\15.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\16.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\16.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\2.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\3.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\4.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\5.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\6.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\png-images\\9.png",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\png-images\\9.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\1.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\10.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\10.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\11.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\11.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\12.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\12.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\13.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\13.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\14.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\14.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\15.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\15.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\16.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\16.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\17.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\17.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\18.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\18.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\19.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\19.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\2.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\20.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\20.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\21.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\21.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\3.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\3.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\4.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\4.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\5.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\5.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\6.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\6.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\7.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\7.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\8.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\8.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\img\\users\\9.jpg",
+      "PackagePath": "staticwebassets\\css\\admin\\img\\users\\9.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\401-error.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\401-error.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\about.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\about.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\addproduct.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\addproduct.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\apexchart.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\apexchart.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\apexcharts-stock-prices.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\apexcharts-stock-prices.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\blog-edit.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\blog-edit.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\blog.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\blog.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\canada.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\canada.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\cart.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\cart.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\chartjs-charts.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\chartjs-charts.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\chat.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\chat.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\checkout.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\checkout.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\choices.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\choices.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\colorpicker.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\colorpicker.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\contacts.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\contacts.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\custom-switcher.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\custom-switcher.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\custom.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\custom.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\datatable.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\datatable.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\defaultmenu.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\defaultmenu.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\draggable.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\draggable.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\echarts.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\echarts.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\editdata.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\editdata.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\editproduct.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\editproduct.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\file-details.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\file-details.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\filemanager.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\filemanager.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\fileupload.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\fileupload.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\flatpickr.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\flatpickr.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\form-layout.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\form-layout.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\form-validation.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\form-validation.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\fullcalendar.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\fullcalendar.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\gallery.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\gallery.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\google-maps.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\google-maps.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-10.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-10.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-11.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-11.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-12.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-12.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-2.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-2.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-3.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-3.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-4.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-4.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-5.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-5.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-6.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-6.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-7.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-7.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-8.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-8.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index-9.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index-9.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\index.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\index.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\invoice.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\invoice.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\jsvectormap.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\jsvectormap.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\landing.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\landing.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\leaflet.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\leaflet.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\mail-inbox.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\mail-inbox.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\mail-settings.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\mail-settings.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\main.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\notifications.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\notifications.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\order-details.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\order-details.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\product-list.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\product-list.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\product.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\product.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\profile-settings.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\profile-settings.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\profile.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\profile.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\quill.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\quill.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\rangeslider.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\rangeslider.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\rating.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\rating.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\reviews.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\reviews.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\russia.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\russia.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\spain.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\spain.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\sticky.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\sticky.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\swetalert.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\swetalert.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\swiper.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\swiper.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\switch.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\switch.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\tasks.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\tasks.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\team.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\team.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\todo.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\todo.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\tom-select.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\tom-select.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\treeview.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\treeview.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\two-step-verification.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\two-step-verification.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\us-merc-en.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\us-merc-en.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\widgets.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\widgets.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\js\\wishlist.js",
+      "PackagePath": "staticwebassets\\css\\admin\\js\\wishlist.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\@popperjs\\core\\umd\\popper.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\@popperjs\\core\\umd\\popper.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\@simonwep\\pickr\\pickr.es5.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\@simonwep\\pickr\\pickr.es5.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\@simonwep\\pickr\\themes\\classic.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\@simonwep\\pickr\\themes\\classic.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\@simonwep\\pickr\\themes\\monolith.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\@simonwep\\pickr\\themes\\monolith.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\@simonwep\\pickr\\themes\\nano.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\@simonwep\\pickr\\themes\\nano.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\animate.css\\animate.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\animate.css\\animate.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\apexcharts\\apexcharts.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\apexcharts\\apexcharts.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\awesome-notifications\\index.var.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\awesome-notifications\\index.var.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\awesome-notifications\\style.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\awesome-notifications\\style.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\chart.js\\chart.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\chart.js\\chart.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\choices.js\\public\\assets\\scripts\\choices.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\choices.js\\public\\assets\\scripts\\choices.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\choices.js\\public\\assets\\styles\\choices.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\choices.js\\public\\assets\\styles\\choices.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\dragula\\dragula.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\dragula\\dragula.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\dragula\\dragula.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\dragula\\dragula.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\dropzone\\dropzone-min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\dropzone\\dropzone-min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\dropzone\\dropzone.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\dropzone\\dropzone.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\echarts\\echarts.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\echarts\\echarts.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-file-encode\\filepond-plugin-file-encode.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-file-encode\\filepond-plugin-file-encode.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-file-validate-size\\filepond-plugin-file-validate-size.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-file-validate-size\\filepond-plugin-file-validate-size.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-file-validate-type\\filepond-plugin-file-validate-type.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-file-validate-type\\filepond-plugin-file-validate-type.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-image-crop\\filepond-plugin-image-crop.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-image-crop\\filepond-plugin-image-crop.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-image-edit\\filepond-plugin-image-edit.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-image-edit\\filepond-plugin-image-edit.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-image-edit\\filepond-plugin-image-edit.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-image-edit\\filepond-plugin-image-edit.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-image-exif-orientation\\filepond-plugin-image-exif-orientation.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-image-exif-orientation\\filepond-plugin-image-exif-orientation.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-image-preview\\filepond-plugin-image-preview.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-image-preview\\filepond-plugin-image-preview.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-image-preview\\filepond-plugin-image-preview.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-image-preview\\filepond-plugin-image-preview.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-image-resize\\filepond-plugin-image-resize.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-image-resize\\filepond-plugin-image-resize.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond-plugin-image-transform\\filepond-plugin-image-transform.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond-plugin-image-transform\\filepond-plugin-image-transform.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond\\filepond.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond\\filepond.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\filepond\\filepond.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\filepond\\filepond.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\flatpickr\\flatpickr.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\flatpickr\\flatpickr.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\flatpickr\\flatpickr.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\flatpickr\\flatpickr.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\fullcalendar\\main.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\glightbox\\css\\glightbox.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\glightbox\\css\\glightbox.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\glightbox\\js\\glightbox.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\glightbox\\js\\glightbox.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\gmaps\\gmaps.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\gmaps\\gmaps.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\js-treeview\\treeview.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\js-treeview\\treeview.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\js-treeview\\treeview.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\js-treeview\\treeview.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\jspdf-autotable\\jspdf.plugin.autotable.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\jspdf-autotable\\jspdf.plugin.autotable.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\jspdf\\jspdf.umd.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\jspdf\\jspdf.umd.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\jsvectormap\\css\\jsvectormap.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\jsvectormap\\css\\jsvectormap.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\jsvectormap\\js\\jsvectormap.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\jsvectormap\\js\\jsvectormap.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\jsvectormap\\maps\\world-merc.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\jsvectormap\\maps\\world-merc.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\leaflet\\images\\layers-2x.png",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\leaflet\\images\\layers-2x.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\leaflet\\images\\layers.png",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\leaflet\\images\\layers.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\leaflet\\images\\marker-icon.png",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\leaflet\\images\\marker-icon.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\leaflet\\leaflet.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\leaflet\\leaflet.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\leaflet\\leaflet.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\leaflet\\leaflet.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\moment\\moment.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\moment\\moment.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\nouislider\\nouislider.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\nouislider\\nouislider.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\nouislider\\nouislider.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\nouislider\\nouislider.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\particlesjs\\particles.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\particlesjs\\particles.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\preline\\preline.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\preline\\preline.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\quill\\quill.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\quill\\quill.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\quill\\quill.snow.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\quill\\quill.snow.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\rangeslider-js\\rangeslider-js.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\rangeslider-js\\rangeslider-js.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\rangeslider-js\\styles.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\rangeslider-js\\styles.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\rater-js\\index.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\rater-js\\index.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\simplebar\\simplebar.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\simplebar\\simplebar.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\simplebar\\simplebar.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\simplebar\\simplebar.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\sweetalert2\\sweetalert2.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\sweetalert2\\sweetalert2.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\sweetalert2\\sweetalert2.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\sweetalert2\\sweetalert2.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\swiper\\swiper-bundle.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\swiper\\swiper-bundle.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\swiper\\swiper-bundle.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\swiper\\swiper-bundle.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\tabulator-tables\\css\\tabulator.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\tabulator-tables\\css\\tabulator.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\tabulator-tables\\js\\tabulator.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\tabulator-tables\\js\\tabulator.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\tom-select\\css\\tom-select.default.min.css",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\tom-select\\css\\tom-select.default.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\tom-select\\js\\tom-select.complete.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\tom-select\\js\\tom-select.complete.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\wnumb\\wNumb.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\wnumb\\wNumb.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\admin\\libs\\xlsx\\xlsx.full.min.js",
+      "PackagePath": "staticwebassets\\css\\admin\\libs\\xlsx\\xlsx.full.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\elegant-icons.css",
+      "PackagePath": "staticwebassets\\css\\elegant-icons.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\loginstyle.css",
+      "PackagePath": "staticwebassets\\css\\loginstyle.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\magnific-popup.css",
+      "PackagePath": "staticwebassets\\css\\magnific-popup.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\nice-select.css",
+      "PackagePath": "staticwebassets\\css\\nice-select.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\owl.carousel.min.css",
+      "PackagePath": "staticwebassets\\css\\owl.carousel.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\slicknav.min.css",
+      "PackagePath": "staticwebassets\\css\\slicknav.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\ElegantIcons.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.eot"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\ElegantIcons.svg",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.svg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\ElegantIcons.ttf",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.ttf"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\ElegantIcons.woff",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIcons.woff"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\ElegantIconsd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\ElegantIconsd41d.eot"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\fontawesome-webfont3e6e.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.eot"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\fontawesome-webfont3e6e.svg",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.svg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\fontawesome-webfont3e6e.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.ttf"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\fontawesome-webfont3e6e.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfont3e6e.woff2"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\fonts\\fontawesome-webfontd41d.eot",
+      "PackagePath": "staticwebassets\\fonts\\fontawesome-webfontd41d.eot"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\about\\about-us.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\about-us.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\about\\team-1.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\about\\team-2.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\about\\team-3.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-3.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\about\\team-4.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\team-4.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\about\\testimonial-author.jpg",
+      "PackagePath": "staticwebassets\\img\\about\\testimonial-author.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\banner\\banner-1.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\banner\\banner-2.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\banner\\banner-3.jpg",
+      "PackagePath": "staticwebassets\\img\\banner\\banner-3.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\blog\\details\\blog-author.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\blog-author.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\blog\\details\\blog-details.jpg",
+      "PackagePath": "staticwebassets\\img\\blog\\details\\blog-details.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\clients\\client-1.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-1.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\clients\\client-2.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\clients\\client-3.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\clients\\client-4.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\clients\\client-5.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-5.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\clients\\client-6.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-6.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\clients\\client-7.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-7.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\clients\\client-8.png",
+      "PackagePath": "staticwebassets\\img\\clients\\client-8.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\footer-logo.png",
+      "PackagePath": "staticwebassets\\img\\footer-logo.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\hero\\hero-1.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\hero\\hero-2.jpg",
+      "PackagePath": "staticwebassets\\img\\hero\\hero-2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\icon\\calendar.png",
+      "PackagePath": "staticwebassets\\img\\icon\\calendar.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\icon\\cart.png",
+      "PackagePath": "staticwebassets\\img\\icon\\cart.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\icon\\compare.png",
+      "PackagePath": "staticwebassets\\img\\icon\\compare.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\icon\\delivery.png",
+      "PackagePath": "staticwebassets\\img\\icon\\delivery.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\icon\\heart.png",
+      "PackagePath": "staticwebassets\\img\\icon\\heart.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\icon\\search.png",
+      "PackagePath": "staticwebassets\\img\\icon\\search.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\icon\\trash.png",
+      "PackagePath": "staticwebassets\\img\\icon\\trash.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\icon\\user.png",
+      "PackagePath": "staticwebassets\\img\\icon\\user.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\logo.png",
+      "PackagePath": "staticwebassets\\img\\logo.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\payment.png",
+      "PackagePath": "staticwebassets\\img\\payment.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product-sale.png",
+      "PackagePath": "staticwebassets\\img\\product-sale.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\17ce8307-c311-4242-9cc4-443b8cc81523.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\17ce8307-c311-4242-9cc4-443b8cc81523.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\17db7ff9-3b4c-420a-af93-58b4b178203b.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\17db7ff9-3b4c-420a-af93-58b4b178203b.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\2b160200-c4ed-43bc-9d2a-5ec46b0f2d4f.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\2b160200-c4ed-43bc-9d2a-5ec46b0f2d4f.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\676b69fa-f393-4a8b-8117-4892d7ae1cbe.png",
+      "PackagePath": "staticwebassets\\img\\product_img\\676b69fa-f393-4a8b-8117-4892d7ae1cbe.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Clutch Bag - Limited Edition.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Clutch Bag - Limited Edition.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Clutch Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Clutch Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Leather Clutch.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Leather Clutch.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Shoulder Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Shoulder Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Sunglasses.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Accessories Set.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Accessories Set.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Clutch Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Clutch Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Clutch.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Clutch.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Dress.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Dress.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Leather Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Leather Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Scarf.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Scarf.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Shoes.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Sunglasses.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Chanel Women Wallet.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Chanel Women Wallet.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Fred Perry Accessories Set.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Fred Perry Accessories Set.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Fred Perry Women Dress.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Fred Perry Women Dress.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Fred Perry Women Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Fred Perry Women Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Fred Perry Women Scarf.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Fred Perry Women Scarf.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Fred Perry Women Shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Fred Perry Women Shoes.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Fred Perry mens baseline leather trainers.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Fred Perry mens baseline leather trainers.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Baseball Cap.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Baseball Cap.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Leather Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Leather Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Leather Gloves.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Leather Gloves.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Leather Jacket.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Leather Jacket.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Men Shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Men Shoes.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Polo Shirt.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Polo Shirt.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Silk Shirt.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Silk Shirt.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci T-Shirt - Limited Edition.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci T-Shirt - Limited Edition.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci T-Shirt.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci T-Shirt.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Women Blouse.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Women Blouse.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Women Clutch.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Women Clutch.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Women Dress.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Women Dress.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Women Shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Women Shoes.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Gucci Women Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Gucci Women Sunglasses.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Handbag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Handbag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum High-Tops.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum High-Tops.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Low-Tops.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Low-Tops.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Slip-Ons.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Slip-Ons.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Sneakers.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Sneakers.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Sunglasses - Limited Edition.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Sunglasses - Limited Edition.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Sunglasses - Retro.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Sunglasses - Retro.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Sunglasses.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Women Accessories Set.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Women Accessories Set.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Women Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Women Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Women Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Women Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum Women Sneakers.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum Women Sneakers.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Helen Kirkum palimpsest sneaker - white.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Helen Kirkum palimpsest sneaker - white.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Backpack.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Backpack.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Beanie.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Beanie.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Crossbody Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Crossbody Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Leather Backpack.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Leather Backpack.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Leather Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Leather Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Leather Jacket.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Leather Jacket.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Polo Shirt'.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Polo Shirt'.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Silk Blouse.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Silk Blouse.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton T-Shirt.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton T-Shirt.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Women Accessories Set.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Women Accessories Set.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Women Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Women Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Women Blouse.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Women Blouse.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Women Dress.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Women Dress.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Women Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Women Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Women Sandals.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Women Sandals.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Women Shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Women Shoes.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Louis Vuitton Women Wallet.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Louis Vuitton Women Wallet.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Kids Accessories Set.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Kids Accessories Set.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Kids Outfit.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Kids Outfit.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Kids Sneakers.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Kids Sneakers.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Kids Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Kids Sunglasses.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Men Shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Men Shoes.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Straw Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Straw Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Women Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Women Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Women Handbag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Women Handbag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Women Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Women Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Women Leather Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Women Leather Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Women Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Women Sunglasses.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Wool Beanie.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Wool Beanie.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Wool Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Wool Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Prada Wool Scarf.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Prada Wool Scarf.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Kids Outfit.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Kids Outfit.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Men Loafers.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Men Loafers.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Men Sandals.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Men Sandals.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Men Shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Men Shoes.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Women Clutch Bag.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Women Clutch Bag.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Women Hat.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Women Hat.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Women Heels.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Women Heels.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Women Sandals.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Women Sandals.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Versace Women Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Versace Women Sunglasses.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Y3 Kids Backpack.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Y3 Kids Backpack.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Y3 Kids Sandals.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Y3 Kids Sandals.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Y3 Kids Shoes.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Y3 Kids Shoes.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Y3 Kids Sneakers - Neon.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Y3 Kids Sneakers - Neon.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Y3 Kids Sneakers.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Y3 Kids Sneakers.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Y3 Women Backpack.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Y3 Women Backpack.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Y3 Women Sunglasses.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Y3 Women Sunglasses.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\Y3 mens shiku run trainers.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\Y3 mens shiku run trainers.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\product_img\\a78dafab-407d-4a95-8ee2-eda2b294eaae.jpg",
+      "PackagePath": "staticwebassets\\img\\product_img\\a78dafab-407d-4a95-8ee2-eda2b294eaae.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shop-details\\details-payment.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\details-payment.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shop-details\\product-big-2.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-2.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shop-details\\product-big-3.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-3.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shop-details\\product-big-4.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big-4.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shop-details\\product-big.png",
+      "PackagePath": "staticwebassets\\img\\shop-details\\product-big.png"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shopping-cart\\cart-1.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-1.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shopping-cart\\cart-2.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-2.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shopping-cart\\cart-3.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-3.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\img\\shopping-cart\\cart-4.jpg",
+      "PackagePath": "staticwebassets\\img\\shopping-cart\\cart-4.jpg"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\jquery-3.3.1.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery-3.3.1.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\jquery.countdown.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\jquery.magnific-popup.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.magnific-popup.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\jquery.nice-select.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nice-select.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\jquery.nicescroll.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.nicescroll.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\jquery.slicknav.js",
+      "PackagePath": "staticwebassets\\js\\jquery.slicknav.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\mixitup.min.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\owl.carousel.min.js",
+      "PackagePath": "staticwebassets\\js\\owl.carousel.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\popper.js",
+      "PackagePath": "staticwebassets\\js\\popper.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\Student\\HK5\\ASP\\final_2\\ProjectASP\\Fashion\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Fashion.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Fashion.props",
+      "PackagePath": "build\\Fashion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Fashion.props",
+      "PackagePath": "buildMultiTargeting\\Fashion.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Fashion.props",
+      "PackagePath": "buildTransitive\\Fashion.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

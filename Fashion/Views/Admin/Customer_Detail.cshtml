@@ -1,0 +1,65 @@
+﻿@model Fashion.Models.Customer
+@{
+    ViewBag.Title = "Customer_Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<!-- Existing HTML code for displaying customer details -->
+
+<div class="box">
+    <div class="box-header">
+        <h5 class="box-title leading-none flex">
+            <i class="ri ri-shield-user-line ltr:mr-2 rtl:ml-2"></i>
+            Personal Settings
+        </h5>
+    </div>
+    <div class="box-body">
+        @if (!ViewData.ModelState.IsValid)
+        {
+            <div class="alert alert-danger">
+                <h4>Error(s) occurred:</h4>
+                <ul>
+                    @foreach (var value in ViewData.ModelState.Values)
+                    {
+                        foreach (var error in value.Errors)
+                        {
+                            <li>@error.ErrorMessage</li>
+                        }
+                    }
+                </ul>
+            </div>
+        }
+        <form action="@Url.Action("UpdateCustomer", "Admin")" method="post">
+            @Html.HiddenFor(model => model.CustomerID)
+
+            <div class="grid lg:grid-cols-2 gap-6">
+                <div class="space-y-2">
+                    <label class="ti-form-label mb-0">First Name</label>
+                    @Html.TextBoxFor(model => model.FirstName, new { @class = "my-auto ti-form-input" })
+                </div>
+                <div class="space-y-2">
+                    <label class="ti-form-label mb-0">Last Name</label>
+                    @Html.TextBoxFor(model => model.LastName, new { @class = "my-auto ti-form-input" })
+                </div>
+                <div class="space-y-2">
+                    <label class="ti-form-label mb-0">Phone Number</label>
+                    @Html.TextBoxFor(model => model.Phone, new { @class = "my-auto ti-form-input" })
+                </div>
+                <div class="space-y-2">
+                    <label class="ti-form-label mb-0">Email</label>
+                    @Html.TextBoxFor(model => model.Email, new { @class = "my-auto ti-form-input" })
+                </div>
+                <div class="space-y-2">
+                    <label class="ti-form-label mb-0">Address</label>
+                    @Html.TextBoxFor(model => model.Address, new { @class = "my-auto ti-form-input" })
+                </div>
+            </div>
+            <div class="box-footer">
+                <button type="submit" class="ti-btn m-0 ti-btn-soft-primary">
+                    <i class="ri ri-refresh-line"></i>
+                    Update
+                </button>
+            </div>
+        </form>
+    </div>
+</div>

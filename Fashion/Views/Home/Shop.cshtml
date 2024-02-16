@@ -1,0 +1,182 @@
+﻿@model ShopViewModel
+@{
+    ViewBag.Title = "Shop";
+}
+
+<div class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Shop</h4>
+                    <div class="breadcrumb__links">
+                        <a href="index-2.html">Home</a>
+                        <span>Shop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="shop spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3">
+                <div class="shop__sidebar">
+                    <div class="shop__sidebar__search">
+                        <form action="@Url.Action("Shop", "Home")" method="get">
+                            <!-- Updated action attribute -->
+                            <input type="text" name="search" placeholder="Search..."> <!-- Updated name attribute -->
+                            <button type="submit"><span class="icon_search"></span></button>
+                        </form>
+                    </div>
+                    <div class="shop__sidebar__accordion">
+                        <div class="accordion" id="accordionExample">
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseOne">Categories</a>
+                                </div>
+                                <div id="collapseOne" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__categories">
+                                            <ul class="nice-scroll">
+                                                @foreach (var category in Model.Categories)
+                                                {
+                                                    <li><a href="@Url.Action("Shop", "Home", new { categoryID = category.CategoryID })">@category.CategoryName (@category.ProductCount)</a></li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseTwo">Branding</a>
+                                </div>
+                                <div id="collapseTwo" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__brand">
+                                            <ul>
+                                                @foreach (var brand in Model.Brands)
+                                                {
+                                                    <li><a href="@Url.Action("Shop", "Home", new {BrandID = brand.BrandID})">@brand.BrandName</a></li>
+                                                }
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card-heading">
+                                    <a data-toggle="collapse" data-target="#collapseThree">Filter Price</a>
+                                </div>
+                                <div id="collapseThree" class="collapse show" data-parent="#accordionExample">
+                                    <div class="card-body">
+                                        <div class="shop__sidebar__price">
+                                            <ul>
+                                                <li><a href="@Url.Action("Shop", "Home", new { MinPrice = 0, MaxPrice = 50 })">$0.00 - $50.00</a></li>
+                                                <li><a href="@Url.Action("Shop", "Home", new { MinPrice = 50, MaxPrice = 100 })">$50.00 - $100.00</a></li>
+                                                <li><a href="@Url.Action("Shop", "Home", new { MinPrice = 100, MaxPrice = 150 })">$100.00 - $150.00</a></li>
+                                                <li><a href="@Url.Action("Shop", "Home", new { MinPrice = 150, MaxPrice = 200 })">$150.00 - $200.00</a></li>
+                                                <li><a href="@Url.Action("Shop", "Home", new { MinPrice = 200, MaxPrice = 250 })">$200.00 - $250.00</a></li>
+                                                <li><a href="@Url.Action("Shop", "Home", new { MinPrice = 250 })">$250.00+</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-9">
+                <div class="shop__product__option">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="shop__product__option__left">
+                                @{
+                                    int start = (ViewBag.CurrentPage - 1) * 12 + 1;
+                                    int end = Math.Min(start + 11, ViewBag.TotalProduct);
+                                }
+                                <p>Showing @start–@end of @ViewBag.TotalProduct results</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    @foreach (var product in Model.Products)
+                    {
+                        <div class="col-lg-4 col-md-6 col-sm-6">
+                            <div class="product__item">
+                                <div class="product__item__pic" style="position: relative; width: 100%; height: 0; padding-bottom: 100%;">
+                                    <img class="product__item__img" style="position: absolute; top: 0; left: 0; width:  100%; height:  100%; object-fit: cover;" src="@Url.Content("~/img/product_img/" + product.ProductImages.LastOrDefault()?.ImageUrl)" alt="@product.ProductName" />
+
+
+                                    <ul class="product__hover">
+                                        <li>
+                                            <form id="addToWishlist-@product.ProductID" method="post" action="@Url.Action("Favorites", "Home")">
+                                                <input type="hidden" name="productId" value="@product.ProductID" />
+                                                <a href="#" onclick="document.getElementById('addToWishlist-@product.ProductID').submit()">
+                                                    <img src="~/img/icon/heart.png" alt>
+                                                </a>
+                                            </form>
+                                        </li>
+                                        <li>
+                                            <a href="@Url.Action("Product_Detail", "Product", new { id = product.ProductID })">
+                                                <img src="~/img/icon/search.png" alt="">
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="product__item__text">
+                                    <h6>@product.ProductName</h6>
+                                    <form id="addToCart-@product.ProductID" method="post" action="@Url.Action("AddToCart", "Home")">
+                                        <input type="hidden" name="productId" value="@product.ProductID" />
+                                        <a href="#" onclick="document.getElementById('addToCart-@product.ProductID').submit()">+ Add To Cart</a>
+                                    </form>
+                                    <h5>@product.Price.ToString("C")</h5>
+                                </div>
+                            </div>
+                        </div>
+                     }
+                      
+                       
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="product__pagination">
+                            @if (ViewBag.CurrentPage > 1)
+                            {
+                                <a href="@Url.Action("Shop", new { page = ViewBag.CurrentPage - 1, categoryId = ViewBag.CategoryId, brandId = ViewBag.BrandId, minPrice = ViewBag.MinPrice, maxPrice = ViewBag.MaxPrice, search = ViewBag.Search, sortOption = ViewBag.SortOption })"></a>
+                            }
+                            @for (int i = 1; i <= ViewBag.TotalPages; i++)
+                            {
+                                if (i == ViewBag.CurrentPage)
+                                {
+                                    <a class="active" href="#">@i</a>
+                                }
+                                else
+                                {
+                                    <a href="@Url.Action("Shop", new { page = i, categoryId = ViewBag.CategoryId, brandId = ViewBag.BrandId, minPrice = ViewBag.MinPrice, maxPrice = ViewBag.MaxPrice, search = ViewBag.Search, sortOption = ViewBag.SortOption })">@i</a>
+                                }
+                            }
+                            @if (ViewBag.CurrentPage < ViewBag.TotalPages)
+                            {
+                                <span>...</span>
+                                <a href="@Url.Action("Shop", new { page = ViewBag.TotalPages, categoryId = ViewBag.CategoryId, brandId = ViewBag.BrandId, minPrice = ViewBag.MinPrice, maxPrice = ViewBag.MaxPrice, search = ViewBag.Search, sortOption = ViewBag.SortOption })">@ViewBag.TotalPages</a>
+                            }
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+

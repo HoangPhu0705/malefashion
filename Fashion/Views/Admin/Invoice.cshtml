@@ -1,0 +1,97 @@
+﻿@model List<Fashion.Models.Order>
+@{
+    ViewBag.Title = "Invoice";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="main-content">
+
+    <!-- Page Header -->
+    <div class="block justify-between page-header sm:flex">
+        <div>
+            <h3 class="text-gray-700 hover:text-gray-900 dark:text-white dark:hover:text-white text-2xl font-medium"> Invoice</h3>
+        </div>
+        <ol class="flex items-center whitespace-nowrap min-w-0">
+            <li class="text-sm">
+                <a class="flex items-center font-semibold text-primary hover:text-primary dark:text-primary truncate" href="javascript:void(0);">
+                    Pages
+                    <i class="ti ti-chevrons-right flex-shrink-0 mx-3 overflow-visible text-gray-300 dark:text-gray-300 rtl:rotate-180"></i>
+                </a>
+            </li>
+            <li class="text-sm text-gray-500 hover:text-primary dark:text-white/70 " aria-current="page">
+                Invoice
+            </li>
+        </ol>
+    </div>
+    <!-- Page Header Close -->
+    <!-- Start::row-1 -->
+    <div class="grid grid-cols-12 gap-6">
+        <div class="col-span-12">
+            
+                    <div class="mt-5 table-bordered rounded-sm ti-custom-table-head overflow-auto">
+                        <table class="ti-custom-table ti-custom-table-head edit-table whitespace-nowrap text-center">
+                            <thead class="bg-gray-50 dark:bg-black/20">
+                                <tr class="cart-box">
+                                    
+                                    <th scope="col" class="dark:text-white/70">Invoice Id</th>
+                                    <th scope="col" class="dark:text-white/70">Customer</th>
+                                    <th scope="col" class="dark:text-white/70">Created Date</th>
+                                    <th scope="col" class="dark:text-white/70">Due Date</th>
+                                    <th scope="col" class="dark:text-white/70">Status</th>
+                                    <th scope="col" class="dark:text-white/70">Action</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var order in Model)
+                                {
+                                    <tr class="invoice-list">
+                                       
+                                        <td>@order.OrderID</td>
+                                        <td>
+                                            <div class="flex space-x-3 rtl:space-x-reverse text-start min-w-[220px] truncate">
+                                                
+                                                <div class="block">
+                                                    <p class="block text-sm font-semibold text-gray-800 dark:text-white my-auto">@order.Customer.FirstName @order.Customer.LastName</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>@order.OrderDay</td>
+                                        <td>@order.ReceiveDay</td>
+                                        <td>
+                                            @if (order.OrderStatus)
+                                            {
+                                                <span class="truncate whitespace-nowrap inline-block py-1 px-3 rounded-full text-xs font-medium bg-success/10 text-success/80">Paid</span>
+                                            }
+                                            else
+                                            {
+                                                <form method="post" asp-controller="Admin" asp-action="CheckedOrder" class="inline-block">
+                                                    <input type="hidden" name="orderId" value="@order.OrderID" />
+                                                    <button type="submit" class="truncate whitespace-nowrap inline-block py-1 px-3 rounded-full text-xs font-medium bg-danger/10 text-danger/80">Unpaid</button>
+                                                </form>
+                                            }
+                                        </td>
+                                        <td class="font-medium space-x-2 rtl:space-x-reverse">
+                                            
+                                            @using (Html.BeginForm("Invoice_Details", "Admin", FormMethod.Post))
+                                            {
+                                                @Html.Hidden("orderID", order.OrderID)
+                                                <div class="hs-tooltip ti-main-tooltip">
+                                                    <button type="submit" class="invoice-btn m-0 hs-tooltip-toggle relative w-8 h-8 ti-btn rounded-full p-0 transition-none focus:outline-none ti-btn-soft-primary">
+                                                        <i class="ti ti-file"></i>
+                                                        <span class="hs-tooltip-content ti-main-tooltip-content py-1 px-2 bg-gray-900 text-xs font-medium text-white shadow-sm dark:bg-slate-700" role="tooltip">Invoice Detail</span>
+                                                    </button>
+                                                </div>
+                                            }
+                                        </td>
+                                    </tr>
+                                }
+                              </tbody>
+                              </table>
+                            </div>
+                            </div>
+                            </div>
+    <!-- End::row-1 -->
+
+</div>
+<!-- End::main-content -->
+            </div>

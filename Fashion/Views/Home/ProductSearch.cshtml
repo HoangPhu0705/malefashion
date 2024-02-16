@@ -1,0 +1,31 @@
+﻿@model List<Product>
+
+<div class="row" id="productList">
+    @if (Model != null && Model.Any())
+    {
+        foreach (var product in Model)
+        {
+            <div class="col-lg-4 col-md-6 col-sm-6">
+                <div class="product__item">
+                    <div class="product__item__pic set-bg" data-setbg="@product.ProductImages.FirstOrDefault()?.ImageUrl">
+                        <!-- Product image and hover icons code... -->
+                    </div>
+                    <div class="product__item__text">
+                        <h6>@product.ProductName</h6>
+                        <form id="addToCart-@product.ProductID" method="post" action="@Url.Action("AddToCart", "Home")">
+                            <input type="hidden" name="productId" value="@product.ProductID" />
+                            <a href="#" onclick="document.getElementById('addToCart-@product.ProductID').submit()">+ Add To Cart</a>
+                        </form>
+                        <h5>@product.Price.ToString("C")</h5>
+                    </div>
+                </div>
+            </div>
+        }
+    }
+    else
+    {
+        <div class="col-lg-12">
+            <p>No products found.</p>
+        </div>
+    }
+</div>

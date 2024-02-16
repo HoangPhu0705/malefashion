@@ -1,0 +1,123 @@
+﻿@model Fashion.Models.Order
+@{
+    ViewBag.Title = "Invoice_Details";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="main-content">
+
+    <!-- Page Header -->
+    <div class="block justify-between page-header sm:flex">
+        <div>
+            <h3 class="text-gray-700 hover:text-gray-900 dark:text-white dark:hover:text-white text-2xl font-medium"> Invoice Details</h3>
+        </div>
+        <ol class="flex items-center whitespace-nowrap min-w-0">
+            <li class="text-sm">
+                <a class="flex items-center font-semibold text-primary hover:text-primary dark:text-primary truncate" href="javascript:void(0);">
+                    Pages
+                    <i class="ti ti-chevrons-right flex-shrink-0 mx-3 overflow-visible text-gray-300 dark:text-gray-300 rtl:rotate-180"></i>
+                </a>
+            </li>
+            <li class="text-sm text-gray-500 hover:text-primary dark:text-white/70 " aria-current="page">
+                Invoice Details
+            </li>
+        </ol>
+    </div>
+    <!-- Page Header Close -->
+    <!-- Start::row-1 -->
+    <div class="grid grid-cols-12 gap-6 lg:max-w-4xl mx-auto">
+        <div class="col-span-12">
+            <div class="box">
+                <div class="box-body">
+                    <div class="flex flex-col lg:flex-row justify-between mb-5 space-y-4">
+                        <div>
+                            <div class="mb-2">
+                                <img src="~/img/logo.png" alt="logo" class="flex dark:hidden">
+                                <img src="~/img/logo.png" alt="logo" class="hidden dark:flex">
+                            </div>
+                            <div class="mt-1">@ViewBag.Customer.FirstName @ViewBag.Customer.LastName</div>
+                            <div class="mt-1">@ViewBag.Customer.Address</div>
+                            <div class="mt-1">@ViewBag.Customer.Email</div>
+                        </div>
+                        <div class="text-end">
+                            <h3 class="text-2xl text-primary uppercase font-semibold">Invoice</h3>
+                            <div class="mt-1"><span class="font-bold">#@Model.OrderID</span></div>
+                            <div class="mt-1">Created Date: <span class="font-bold">@Model.OrderDay.ToString("MMMM dd yyyy")</span></div>
+                            <div class="mt-1">Due Date:<span class="font-bold">@Model.ReceiveDay.ToString("MMMM dd yyyy")</span></div>
+                        </div>
+                    </div>
+                    <hr class="pb-5 dark:border-t-white/10">
+                    <div class="flex flex-col lg:flex-row justify-between mb-5 space-y-4">
+                        <div class="lg:col-span-6 col-span-12">
+                            <h3 class="font-semibold text-xl">Billed To:</h3>
+                            <address class="not-italic">
+                                @Model.Customer.LastName<br>
+                                @Model.Customer.Address<br>
+                                @Model.Customer.Email
+                            </address>
+                        </div>
+                        <div class="lg:col-span-6 col-span-12 text-end">
+                            <h3 class="font-semibold text-xl">Shipped To:</h3>
+                            <address class="not-italic">
+                                @Model.Customer.LastName<br>
+                                @Model.Customer.Address<br>
+                                @Model.Customer.Email
+                            </address>
+                        </div>
+                    </div>
+                    <div class="py-5">
+                        <div class="overflow-auto">
+                            <table class="ti-custom-table !border dark:border-white/10">
+                                <thead class="bg-gray-100 dark:bg-black/20 overflow-hidden">
+                                    <tr>
+                                        <th scope="col" class="">S.No</th>
+                                        <th scope="col" class="">Product</th>
+                                        <th scope="col" class="">Quantity</th>
+                                        <th scope="col" class="">Unit</th>
+                                        <th scope="col" class="!text-end">Amount</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="">
+                                    @foreach (var orderDetail in Model.OrderDetails)
+                                    {
+                                        <tr>
+                                            <td class="">@(ViewBag.OrderDetails.IndexOf(orderDetail) + 1)</td>
+                                           <td class="">
+                                                <span class="font-bold">@orderDetail.Product.ProductName</span>
+                                                @* <p class="text-gray-500 dark:text-white/70">@orderDetail.Product.ProductDescription</p> *@
+                                            </td>
+                                            <td class="font-semibold">@orderDetail.Quantity</td>
+                                            <td class="">$@(orderDetail.Price)</td>
+                                            <td class="text-end font-medium">$@(orderDetail.Quantity * orderDetail.Price)</td>
+                                        </tr>
+                                    }
+                                     <tr class="!border-b-0">
+                                        <td colspan="3" class="ltr:border-r rtl:border-l border-gray-200 dark:border-white/10">
+                                            <h3 class="font-bold text-xl">Invoice Payment Method : COD</h3>
+                                        </td>
+                                        <td class="">Sub-Total</td>
+                                        <td class="!text-end">$@(Model.OrderDetails.Sum(od => od.Quantity * od.Price))</td>
+                                    </tr>
+                                    <tr class="!border-b-0 !border-t-0">
+                                         @* <td colspan="3" class="ltr:border-r rtl:border-l border-gray-200 dark:border-white/10">Account :<span class="font-bold">@Model.PaymentMethod.AccountNumber</span></td> *@
+                                        <td class="">Tax</td>
+                                         <td class="!text-end">$@(Math.Round(Model.OrderDetails.Sum(od => od.Quantity * od.Price * 0.08), 2))</td>
+                                    </tr>
+                                    <tr class="!border-b-0 !border-t-0">
+                                        @* <td colspan="3" class="ltr:border-r rtl:border-l border-gray-200 dark:border-white/10">Payment Date :<span class="font-bold">@Model.PaymentDate.ToString("MMMM dd yyyy")</span></td> *@
+                                        <td class="">Total Amount</td>
+                                        <td class="!text-end">$@(Math.Round(Model.OrderDetails.Sum(od => od.Quantity * od.Price * 1.08), 2))</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End::row-1 -->
+
+</div>
+<!-- Start::main-content -->
+

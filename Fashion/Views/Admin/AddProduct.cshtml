@@ -1,0 +1,112 @@
+﻿@model ProductViewModel
+@{
+    ViewBag.Title = "ProductDetails";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="main-content">
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <h4>Error(s) occurred:</h4>
+            <ul>
+                @foreach (var value in ViewData.ModelState.Values)
+                {
+                    foreach (var error in value.Errors)
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                }
+            </ul>
+        </div>
+    }
+    <!-- Page Header -->
+    <div class="block justify-between page-header sm:flex">
+        <div>
+            <h3 class="text-gray-700 hover:text-gray-900 dark:text-white dark:hover:text-white text-2xl font-medium"> Add Product</h3>
+        </div>
+        <ol class="flex items-center whitespace-nowrap min-w-0">
+            <li class="text-sm">
+                <a class="flex items-center font-semibold text-primary hover:text-primary dark:text-primary truncate" href="javascript:void(0);">
+                    Pages
+                    <i class="ti ti-chevrons-right flex-shrink-0 mx-3 overflow-visible text-gray-300 dark:text-gray-300 rtl:rotate-180"></i>
+                </a>
+            </li>
+            <li class="text-sm text-gray-500 hover:text-primary dark:text-white/70 " aria-current="page">
+                Add Product
+            </li>
+        </ol>
+    </div>
+    
+    @using (Html.BeginForm("AddProduct", "Admin", FormMethod.Post, new { enctype = "multipart/form-data" }))
+    {
+        <div class="grid grid-cols-12 gap-x-6">
+            <div class="col-span-12">
+                <div class="box !bg-transparent border-0 shadow-none">
+                    <div class="box-body p-0">
+                        <div class="grid grid-cols-12 gap-x-6">
+                            <div class="col-span-12 xl:col-span-6">
+                                <div class="box">
+                                    <div class="box-body">
+                                        <div class="space-y-3">
+                                            <div class="space-y-2">
+                                                <label class="ti-form-label mb-0">Product Title</label>
+                                                @Html.TextBoxFor(m => m.Product.ProductName, new { @class = "my-auto ti-form-input", placeholder = "Product Name" })
+                                            </div>
+                                            <div class="">
+                                                <label class="ti-form-label">Product Description</label>
+                                                @Html.TextAreaFor(m => m.Product.ProductDescription, new { @class = "my-auto ti-form-input", placeholder = "Product Description" })
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-span-12 xl:col-span-6">
+                                <div class="box">
+                                    <div class="box-body space-y-3">
+                                        <div class="grid grid-cols-12 gap-4">
+                                            <div class="col-span-12 lg:col-span-6">
+                                                <div class="space-y-2 product-1">
+                                                    <label class="ti-form-label mb-0">Product Category</label>
+                                                    @Html.DropDownListFor(m => m.Product.CategoryID, new SelectList(Model.Categories, "CategoryID", "CategoryName"), "Select category", new { @class = "ti-form-select product-search" })
+                                                </div>
+                                            </div>
+                                            <div class="col-span-12 lg:col-span-6">
+                                                <div class="space-y-2 product-1">
+                                                    <label class="ti-form-label mb-0">Brand</label>
+                                                    @Html.DropDownListFor(m => m.Product.BrandID, new SelectList(Model.Brands, "BrandID", "BrandName"), "Select brand", new { @class = "ti-form-select product-search" })
+                                                </div>
+                                            </div>
+                                            <div class="col-span-12 lg:col-span-6">
+                                                <div class="space-y-2 product-1">
+                                                    <label class="ti-form-label mb-0">Price</label>
+                                                    @Html.TextBoxFor(m => m.Product.Price, new { @class = "my-auto ti-form-input", placeholder = "Price" })
+                                                </div>
+                                            </div>
+                                            <div class="col-span-12 lg:col-span-6">
+                                                <div class="space-y-2 product-1">
+                                                    <label class="ti-form-label mb-0">Quantity</label>
+                                                    @Html.TextBoxFor(m => m.Product.Quantity, new { @class = "my-auto ti-form-input", placeholder = "Quantity" })
+                                                </div>
+                                            </div>
+                                            <!-- Other input fields for colors, sizes, etc. -->
+                                        </div>
+                                        <div class="form-group">
+                                            @Html.LabelFor(model => model.ProductImages, new { @class = "flex justify-between ti-form-label" })
+                                            <input type="file" name="productImages" multiple="multiple" id="productImages"/>
+                                            @Html.ValidationMessageFor(model => model.ProductImages)
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box-footer text-end border-t-0 px-0">
+                        <button class="ti-btn ti-btn-primary" type="submit"><i class="ri-add-line"></i>Add Product</button>
+                       
+                     </div>
+                </div>
+            </div>
+        </div>
+    }
+</div>

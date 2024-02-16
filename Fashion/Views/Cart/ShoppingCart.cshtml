@@ -1,0 +1,144 @@
+﻿@model ShoppingCartViewModel
+@{
+
+}
+
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Shopping Cart</h4>
+                    <div class="breadcrumb__links">
+                        <a href="index-2.html">Home</a>
+                        <a href="shop.html">Shop</a>
+                        <span>Shopping Cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="shopping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8">
+                <form id="updateCart" action="@Url.Action("UpdateCart", "Cart")" method="POST">
+                    <div class="shopping__cart__table" id="product-list">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>Product</th>
+                                    <th>Quantity</th>
+                                    <th>Size</th>
+                                    <th>Total</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var orderDetail in Model.OrderDetails)
+                                {
+                                    <tr>
+                                        <td class="product__cart__item">
+                                            <div class="product__cart__item__pic">
+                                                @if (orderDetail.Product.ProductImages != null && orderDetail.Product.ProductImages.Any())
+                                                {
+                                                    <img src="@Url.Content("~/img/product_img/" + @orderDetail.Product.ProductImages.First().ImageUrl)" alt="Product Image" style="width: 80px; height: 80px;">
+                                                }
+                                                else
+                                                {
+                                                    <img src="https://placehold.co/80x80" alt>
+                                                }
+                                            </div>
+                                            <div class="product__cart__item__text">
+                                                <h6>@orderDetail.Product.ProductName</h6>
+                                                <h5>@orderDetail.Product.Price.ToString("C")</h5>
+                                            </div>
+                                        </td>
+                                        <td class="quantity__item">
+                                            <div class="quantity">
+                                                <div class="pro-qty-2">
+                                                    <input type="text" class="quantity-input" name="quantities[]" value="@orderDetail.Quantity" min="1">
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td class="size__item">
+                                            <select name="sizeIds[]" class="size-select">
+                                                @foreach (var size in Model.ProductSizes.Where(ps => ps.ProductID == orderDetail.ProductID))
+                                                {
+                                                    <option value="@size.SizeID" selected="@(orderDetail.SizeID == size.SizeID)">@size.Size.Name</option>
+                                                }
+                                            </select>
+                                        </td>
+
+                                        <td class="cart__price">@((orderDetail.Product.Price * orderDetail.Quantity).ToString("C"))</td>
+                                        <td class="cart__close">
+                                            <button onclick="removeFromCart('@orderDetail.ProductID', '@orderDetail.OrderID')">
+                                            <i class="fa fa-close"></i></button>
+                                            </td>
+                                        <input type="hidden" name="productIds[]" value="@orderDetail.ProductID" />
+                                        <input type="hidden" name="orderIds[]" value="@orderDetail.OrderID" />
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="continue__btn">
+                                <a href="@Url.Action("Shop", "Home")">Continue Shopping</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 col-sm-6">
+                            <div class="continue__btn update__btn">
+                                <a href="#" onclick="document.getElementById('updateCart').submit()"><i class="fa fa-spinner"></i> Update cart</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-lg-4">
+                <div class="cart__discount">
+                    <h6>Discount codes</h6>
+                    <form action="#">
+                        <input type="text" placeholder="Coupon code">
+                        <button type="submit">Apply</button>
+                    </form>
+                </div>
+                <div class="cart__total">
+                    <h6>Cart total</h6>
+                    <ul>
+                        <li>Subtotal <span>$ @Model.OrderDetails.Sum(od => od.Product.Price * od.Quantity)</span></li>
+                        <li>Total <span>$ @Math.Round(Model.OrderDetails.Sum(od => od.Product.Price * od.Quantity) * 1.08, 2)</span></li>
+                    </ul>
+                    <a href="@Url.Action("Checkout", "Cart")" class="primary-btn">Proceed to checkout</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<script>
+    function removeFromCart(productId, orderId) {
+        // Gửi yêu cầu xóa đối tượng khỏi giỏ hàng bằng AJAX
+        $.ajax({
+            url: '/Cart/RemoveFromCart',
+            type: 'POST',
+            data: { productId: productId, orderId: orderId },
+            success: function (response) {
+                // Xử lý phản hồi từ server
+                if (response.success) {
+                    // Xóa hàng khỏi bảng giỏ hàng
+                    $('#row_' + productId + '_' + orderId).remove();
+                    // Tải lại sản phẩm
+                    location.reload();
+                }
+            },
+            error: function (xhr, status, error) {
+                console.log(error);
+            }
+        });
+    }
+</script>

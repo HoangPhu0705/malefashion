@@ -1,0 +1,45 @@
+﻿@model CheckoutViewModel
+
+@{
+}
+
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Check Out</h4>
+                    <div class="breadcrumb__links">
+                        <a href="index-2.html">Home</a>
+                        <a href="shop.html">Shop</a>
+                        <span>Check Out</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="checkout spad">
+    <div class="container">
+        <form action="@Url.Action("Shop", "Home")" method="get">
+            <div class="checkout__form text-center">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="checkout__order">
+                        <h4 class="order__title">Thanks for your order</h4>
+                        <p>
+                            Thank you for placing your order with us. We have received your order and it's being processed.
+                            Our team will review your order details and contact you as soon as possible with further information.
+                        </p>
+
+                        <button type="submit" class="site-btn">Continue Shopping</button>
+                    </div>
+                </div>
+
+            </div>
+        </form>
+        
+    </div>
+</section>

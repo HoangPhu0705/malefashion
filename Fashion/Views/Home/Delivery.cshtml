@@ -1,0 +1,77 @@
+﻿@model List<Order>
+
+<section class="breadcrumb-option">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="breadcrumb__text">
+                    <h4>Delivery</h4>
+                    <div class="breadcrumb__links">
+                        <a href="index-2.html">Home</a>
+                        <span>Delivery</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="shopping-cart spad">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="shopping__cart__table ">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Order ID</th>
+                                <th>Products</th>
+                                <th>Status</th>
+                                <th>Order Date</th>
+                                <th>Estimated Delivery Date</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var order in Model)
+                            {
+                                <tr>
+                                    <td class="quantity__item">@order.OrderID</td>
+                                    <td class="product__cart__item">
+                                        <ul>
+                                            @foreach (var orderDetail in order.OrderDetails)
+                                            {
+                                                <li>
+                                                    <div class="product__cart__item__text">
+                                                        <h6>@orderDetail.Product.ProductName</h6>
+                                                    </div>
+                                                </li>
+                                            }
+                                        </ul>
+                                    </td>
+                                    <td class="quantity__item">
+                                        <div class="quantity">
+                                            <h5>@(order.OrderStatus ? "Completed" : "In Progress")</h5>
+                                        </div>
+                                    </td>
+                                    <td class="quantity__item">@order.OrderDay.ToString("dd/MM/yyyy")</td>
+                                    <td class="quantity__item">@order.ReceiveDay.ToString("dd/MM/yyyy")</td>
+                                    <td class="cart__price">@order.OrderDetails.Sum(od => od.Price)$</td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+
+                    <div class="col-lg-12 col-md-6 col-sm-6">
+                        <div class="continue__btn update__btn">
+                            <a href="#">Continue Shopping</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

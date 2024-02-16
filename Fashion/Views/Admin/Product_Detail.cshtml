@@ -1,0 +1,96 @@
+﻿@model ProductViewModel
+
+@{
+    ViewBag.Title = "ProductDetails";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
+}
+
+<div class="main-content">
+    <!-- Page Header -->
+    <div class="block justify-between page-header sm:flex">
+        <div>
+            <h3 class="text-gray-700 hover:text-gray-900 dark:text-white dark:hover:text-white text-2xl font-medium">Product Detail</h3>
+        </div>
+        <!-- Add navigation links if needed -->
+    </div>
+
+    <div class="grid grid-cols-12 gap-x-6">
+        <div class="col-span-12">
+            <div class="box !bg-transparent border-0 shadow-none">
+                <div class="box-body p-0">
+                    <div class="grid grid-cols-12 gap-x-6">
+                        <div class="col-span-12 xl:col-span-6">
+                            <div class="box">
+                                <div class="box-body">
+                                    <div class="space-y-3">
+                                        <div class="space-y-2">
+                                            <label class="ti-form-label mb-0">Product Title</label>
+                                            <p>@Model.Product.ProductName</p>
+                                        </div>
+                                        <div class="">
+                                            <label class="ti-form-label">Product Description</label>
+                                            <p>@Model.Product.ProductDescription</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-span-12 xl:col-span-6">
+                            <div class="box">
+                                <div class="box-body space-y-3">
+                                    <div class="grid grid-cols-12 gap-4">
+                                        <div class="col-span-12 lg:col-span-6">
+                                            <div class="space-y-2 product-1">
+                                                <label class="ti-form-label mb-0">Product Category</label>
+                                                <p>@Model.Product.Category.CategoryName</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-span-12 lg:col-span-6">
+                                            <div class="space-y-2 product-1">
+                                                <label class="ti-form-label mb-0">Brand</label>
+                                                <p>@Model.Product.Brand.BrandName</p>
+                                            </div>
+                                        </div>  
+                                        <div class="col-span-12 lg:col-span-6">
+                                            <div class="space-y-2 product-1">
+                                                <label class="ti-form-label mb-0">Price</label>
+                                                <p>@Model.Product.Price</p>
+                                            </div>
+                                        </div>
+                                        <div class="col-span-12 lg:col-span-6">
+                                            <div class="space-y-2 product-1">
+                                                <label class="ti-form-label mb-0">Quantity</label>
+                                                <p>@Model.Product.Quantity</p>
+                                            </div>
+                                        </div>
+                                        <!-- Display other product details as needed -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Display product images if available -->
+                        @if (Model.Images != null && Model.Images.Count > 0)
+                        {
+                            <div class="col-span-12">
+                                <div class="box">
+                                    <div class="box-body">
+                                        <h4 class="ti-form-label">Product Images</h4>
+                                        <div class="grid grid-cols-4 gap-4">
+                                            @foreach (var image in Model.Images)
+                                            {
+                                                <div>
+                                                    <img src="@Url.Content("~/img/product_img/" + image.ImageUrl)" alt="Product Image" />
+                                                </div>
+                                            }
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+                <!-- Add buttons or options for editing or deleting the product if required -->
+            </div>
+        </div>
+    </div>
+</div>
